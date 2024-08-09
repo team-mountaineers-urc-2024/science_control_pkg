@@ -1,0 +1,9 @@
+int32 goal_rpm
+uint32 required_elapsed_seconds_spent_spinning
+---
+int32 curr_rpm
+uint32 current_elapsed_seconds_spent_spinning
+---
+int32 final_rpm
+uint32 total_seconds_spent_spinning
+

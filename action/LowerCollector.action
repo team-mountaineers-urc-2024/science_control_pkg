@@ -1,0 +1,6 @@
+float32 lower_collector_meters
+---
+float32 curr_meters_lowered
+---
+bool final_meters_reached
+float32 final_meters_lowered

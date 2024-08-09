@@ -1,0 +1,6 @@
+[console_scripts]
+dynamixel_control_node = science_control_pkg.dynamixel_control:main
+ocean_optics_spectrometer_node = science_control_pkg.ocean_optics_spectrometer:main
+science_motor_control_node = science_control_pkg.science_motor_control:main
+subsurface_motor_node = science_control_pkg.subsurface_motor:main
+

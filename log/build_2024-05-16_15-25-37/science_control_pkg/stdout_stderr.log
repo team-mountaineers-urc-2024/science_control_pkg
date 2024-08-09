@@ -1,0 +1,54 @@
+running egg_info
+creating build/science_control_pkg/science_control_pkg.egg-info
+writing build/science_control_pkg/science_control_pkg.egg-info/PKG-INFO
+writing dependency_links to build/science_control_pkg/science_control_pkg.egg-info/dependency_links.txt
+writing entry points to build/science_control_pkg/science_control_pkg.egg-info/entry_points.txt
+writing requirements to build/science_control_pkg/science_control_pkg.egg-info/requires.txt
+writing top-level names to build/science_control_pkg/science_control_pkg.egg-info/top_level.txt
+writing manifest file 'build/science_control_pkg/science_control_pkg.egg-info/SOURCES.txt'
+reading manifest file 'build/science_control_pkg/science_control_pkg.egg-info/SOURCES.txt'
+writing manifest file 'build/science_control_pkg/science_control_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/thinkpad/science_control_pkg/build/science_control_pkg/build
+creating /home/thinkpad/science_control_pkg/build/science_control_pkg/build/lib
+creating /home/thinkpad/science_control_pkg/build/science_control_pkg/build/lib/science_control_pkg
+copying science_control_pkg/science_motor_control.py -> /home/thinkpad/science_control_pkg/build/science_control_pkg/build/lib/science_control_pkg
+copying science_control_pkg/ocean_optics_spectrometer.py -> /home/thinkpad/science_control_pkg/build/science_control_pkg/build/lib/science_control_pkg
+copying science_control_pkg/moisture_sensor.py -> /home/thinkpad/science_control_pkg/build/science_control_pkg/build/lib/science_control_pkg
+copying science_control_pkg/dynamixel_control.py -> /home/thinkpad/science_control_pkg/build/science_control_pkg/build/lib/science_control_pkg
+copying science_control_pkg/subsurface_motor.py -> /home/thinkpad/science_control_pkg/build/science_control_pkg/build/lib/science_control_pkg
+copying science_control_pkg/__init__.py -> /home/thinkpad/science_control_pkg/build/science_control_pkg/build/lib/science_control_pkg
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/thinkpad/science_control_pkg/install/science_control_pkg/lib/python3.10/site-packages/science_control_pkg
+copying /home/thinkpad/science_control_pkg/build/science_control_pkg/build/lib/science_control_pkg/science_motor_control.py -> /home/thinkpad/science_control_pkg/install/science_control_pkg/lib/python3.10/site-packages/science_control_pkg
+copying /home/thinkpad/science_control_pkg/build/science_control_pkg/build/lib/science_control_pkg/ocean_optics_spectrometer.py -> /home/thinkpad/science_control_pkg/install/science_control_pkg/lib/python3.10/site-packages/science_control_pkg
+copying /home/thinkpad/science_control_pkg/build/science_control_pkg/build/lib/science_control_pkg/moisture_sensor.py -> /home/thinkpad/science_control_pkg/install/science_control_pkg/lib/python3.10/site-packages/science_control_pkg
+copying /home/thinkpad/science_control_pkg/build/science_control_pkg/build/lib/science_control_pkg/dynamixel_control.py -> /home/thinkpad/science_control_pkg/install/science_control_pkg/lib/python3.10/site-packages/science_control_pkg
+copying /home/thinkpad/science_control_pkg/build/science_control_pkg/build/lib/science_control_pkg/subsurface_motor.py -> /home/thinkpad/science_control_pkg/install/science_control_pkg/lib/python3.10/site-packages/science_control_pkg
+copying /home/thinkpad/science_control_pkg/build/science_control_pkg/build/lib/science_control_pkg/__init__.py -> /home/thinkpad/science_control_pkg/install/science_control_pkg/lib/python3.10/site-packages/science_control_pkg
+byte-compiling /home/thinkpad/science_control_pkg/install/science_control_pkg/lib/python3.10/site-packages/science_control_pkg/science_motor_control.py to science_motor_control.cpython-310.pyc
+byte-compiling /home/thinkpad/science_control_pkg/install/science_control_pkg/lib/python3.10/site-packages/science_control_pkg/ocean_optics_spectrometer.py to ocean_optics_spectrometer.cpython-310.pyc
+byte-compiling /home/thinkpad/science_control_pkg/install/science_control_pkg/lib/python3.10/site-packages/science_control_pkg/moisture_sensor.py to moisture_sensor.cpython-310.pyc
+byte-compiling /home/thinkpad/science_control_pkg/install/science_control_pkg/lib/python3.10/site-packages/science_control_pkg/dynamixel_control.py to dynamixel_control.cpython-310.pyc
+byte-compiling /home/thinkpad/science_control_pkg/install/science_control_pkg/lib/python3.10/site-packages/science_control_pkg/subsurface_motor.py to subsurface_motor.cpython-310.pyc
+byte-compiling /home/thinkpad/science_control_pkg/install/science_control_pkg/lib/python3.10/site-packages/science_control_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/thinkpad/science_control_pkg/install/science_control_pkg/share/ament_index
+creating /home/thinkpad/science_control_pkg/install/science_control_pkg/share/ament_index/resource_index
+creating /home/thinkpad/science_control_pkg/install/science_control_pkg/share/ament_index/resource_index/packages
+copying resource/science_control_pkg -> /home/thinkpad/science_control_pkg/install/science_control_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/thinkpad/science_control_pkg/install/science_control_pkg/share/science_control_pkg
+creating /home/thinkpad/science_control_pkg/install/science_control_pkg/share/science_control_pkg/launch
+copying launch/science.launch.py -> /home/thinkpad/science_control_pkg/install/science_control_pkg/share/science_control_pkg/launch
+running install_egg_info
+Copying build/science_control_pkg/science_control_pkg.egg-info to /home/thinkpad/science_control_pkg/install/science_control_pkg/lib/python3.10/site-packages/science_control_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dynamixel_control_node script to /home/thinkpad/science_control_pkg/install/science_control_pkg/lib/science_control_pkg
+Installing ocean_optics_spectrometer_node script to /home/thinkpad/science_control_pkg/install/science_control_pkg/lib/science_control_pkg
+Installing science_motor_control_node script to /home/thinkpad/science_control_pkg/install/science_control_pkg/lib/science_control_pkg
+Installing subsurface_motor_node script to /home/thinkpad/science_control_pkg/install/science_control_pkg/lib/science_control_pkg
+writing list of installed files to '/home/thinkpad/science_control_pkg/build/science_control_pkg/install.log'
